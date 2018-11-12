@@ -1,0 +1,27 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Node js SMS app</title>
+    </head>
+
+    <body>
+      <div class="container">
+        <h2>Sending SMS message</h2>
+
+        <input type="tel" name="number" id="number" placeholder="Enter phone number" />
+        <input type="text" name="msg" id ="msg" placeholder="Enter text message" />
+        <input type="button" class="button button-primary " id="button" value="Send Message" />
+        <p class="response"></p>
+      <div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/main.js"></script>
+      <!--Import jQuery before materialize.js-->
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </body>
+  </html>
